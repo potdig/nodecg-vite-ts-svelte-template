@@ -1,10 +1,5 @@
 <script lang="ts">
-  let count: number = 0
-  const increment = () => {
-    count += 1
-  }
+  import { count } from '~/browser/store/count'
 </script>
 
-<button on:click={increment}>
-  count is {count}
-</button>
+<p>count is {$count}</p>
