@@ -10,6 +10,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         'graphics/index': resolve(__dirname, 'graphics/index.html'),
+        'dashboard/count-up': resolve(__dirname, 'dashboard/count-up.html'),
       },
     },
   },
