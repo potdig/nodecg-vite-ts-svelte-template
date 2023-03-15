@@ -21,6 +21,7 @@ ARG LAYOUTS_NAME
 WORKDIR /app
 COPY --from=nodecg /app/nodecg ./nodecg
 COPY --from=build /build/dist ./nodecg/bundles/${LAYOUTS_NAME}/
+COPY --from=build /build/public ./nodecg/assets/${LAYOUTS_NAME}/materials/
 COPY package-nodecg.json ./nodecg/bundles/${LAYOUTS_NAME}/package.json
 WORKDIR /app/nodecg
 EXPOSE 9090

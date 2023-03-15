@@ -18,6 +18,13 @@
         "height": 1080
       }
     ],
+    "assetCategories": [
+      {
+        "name": "materials",
+        "title": "Materials",
+        "allowedTypes": ["jpg", "jpeg", "gif", "png", "svg"]
+      }
+    ],
     "mount": [
       {
         "directory": "assets",
