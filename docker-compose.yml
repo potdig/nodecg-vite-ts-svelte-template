@@ -1,0 +1,7 @@
+services:
+  nodecg:
+    image: potdig/${LAYOUTS_NAME}
+    build:
+      context: .
+    ports:
+      - 9090:9090
