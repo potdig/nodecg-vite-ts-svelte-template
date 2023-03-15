@@ -1,0 +1,28 @@
+{
+  "name": "bundle-name",
+  "version": "1.0.0",
+  "nodecg": {
+    "compatibleRange": "^1.8.0",
+    "dashboardPanels": [
+      {
+        "name": "count-up",
+        "title": "Count up",
+        "width": 1,
+        "file": "count-up.html"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "index.html",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "mount": [
+      {
+        "directory": "assets",
+        "endpoint": "assets"
+      }
+    ]
+  }
+}
