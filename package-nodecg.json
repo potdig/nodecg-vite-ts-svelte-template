@@ -2,7 +2,7 @@
   "name": "bundle-name",
   "version": "1.0.0",
   "nodecg": {
-    "compatibleRange": "^1.8.0",
+    "compatibleRange": "^2.0.0",
     "dashboardPanels": [
       {
         "name": "count-up",
