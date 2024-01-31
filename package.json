@@ -19,6 +19,7 @@
     "ts-nodecg": "^0.3.1",
     "tslib": "^2.6.2",
     "typescript": "^5.3.3",
-    "vite": "^5.0.12"
+    "vite": "^5.0.12",
+    "vite-plugin-static-copy": "^1.0.1"
   }
 }
